@@ -3,6 +3,7 @@
 } */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* PAGE SECTIONS */
@@ -47,7 +48,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
-  box-sizing: border-box;
 }
 
 /* SMALLER ELEMENTS */
@@ -76,6 +76,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
