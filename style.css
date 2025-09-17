@@ -1,6 +1,5 @@
 * {
-  /*border-top: 10px solid #1098ad;
-} */
+  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +9,6 @@
 body {
   color: #444;
   font-family: sans-serif;
-
   border-top: 10px solid #1098ad;
   position: relative;
 }
@@ -43,6 +41,7 @@ article {
   margin-bottom: 40px;
   /* position: relative; */
 }
+
 aside {
   background-color: #cec9c9;
   border-top: 5px solid #1098ad;
@@ -190,7 +189,6 @@ nav a:link {
   padding:20px;
   display: block; */
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -253,6 +251,7 @@ footer p {
 
 /* FLOATS  */
 
+/* 
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -289,11 +288,16 @@ article {
 
 aside {
   width: 300px;
-  float: right;
-  /* margin-top: 145px; */
-  border-radius: 10px;
+  float: right;  
 }
 
 footer {
-  clear: both;
+  clear: both;} 
+  */
+
+/* FLEX BOX */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
